@@ -15,7 +15,11 @@ Spring is a **lightweight, modular, open-source framework** for building Java en
 
 ## B. Inversion of Control (IoC)
 
+**spring IOC container is the one who takes care of loading the class,creating the object,managing the object and takes care of its destruction as well.**
 **IoC means Spring creates and manages objects instead of the programmer.**
+### Why its call IoC?
+
+**Its called Inversion of control because in normal standalone app user is the one who takes care of loading class,object creation,process and death which is opposite in spring as its all done by Spring IoC container automatically hence its called Inversion of control.**
 
 ### Traditional Java
 ```java
